@@ -1,0 +1,116 @@
+bhdsjdfbhjefbdkjasbfckjdsbdjksbfjksdbfckjdsbcjkdbcjkds cmdsbchjdsbcndzbchjdbcmndz cmhbvdsc dsmcbdhcb dsnc dshbvc dsnm csdmbvcdsnzm cdmcvbdbc nmd bvhdvbcds cvdsvcdsb vdbvhds cvmndbcvjd cvmnds chjdzmnc dsmncvbdc dsmb cjdsbcmsa cdsbcjds cjdsbcsdb cs bckjdbcmdz cmdbcdbcv djvbdbdkjbhfgeygfewgfuyewgfiuwef784br3igiw3hr3w4yrdiewhbnfkjesf783urfb4ir4wehfrw34hfewdfkewhf9h4efnhseifwaebfeawg8f7gfiu4ffh47f4eiwfhew;i7fiewfheuf7aw4;if4e/wcLast login: Wed Nov 27 20:36:13 on console
+Uthejkumars-MacBook-Air:~ uthejkumarwoona$ cd desktop
+Uthejkumars-MacBook-Air:desktop uthejkumarwoona$ ssh -i "test.pem" ec2-user@13.127.136.12
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Wed Nov 27 14:27:21 2019 from 49.207.55.72
+[ec2-user@ip-192-168-1-18 ~]$ sudo -i
+[root@ip-192-168-1-18 ~]# git status
+fatal: not a git repository (or any of the parent directories): .git
+[root@ip-192-168-1-18 ~]# git version
+git version 2.18.1
+[root@ip-192-168-1-18 ~]# git init
+Initialized empty Git repository in /root/.git/
+[root@ip-192-168-1-18 ~]# packet_write_wait: Connection to 13.127.136.12 port 22: Broken pipe
+Uthejkumars-MacBook-Air:desktop uthejkumarwoona$ 
+Uthejkumars-MacBook-Air:desktop uthejkumarwoona$ ssh -i "test.pem" ec2-user@13.127.136.12
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+Last login: Wed Nov 27 15:10:04 2019 from 49.207.55.72
+[ec2-user@ip-192-168-1-18 ~]$ sudo -i
+[root@ip-192-168-1-18 ~]# git remote add origin ssh -i "test.pem" ec2-user@13.127.136.12
+error: unknown switch `i'
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+[root@ip-192-168-1-18 ~]# git remote add origin master ssh -i "test.pem" ec2-user@13.127.136.12
+error: unknown switch `i'
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+[root@ip-192-168-1-18 ~]# 
+[root@ip-192-168-1-18 ~]# git remote add origin https://github.com/uthejkumarwoona/practicerepository.git
+[root@ip-192-168-1-18 ~]# git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.bash_history
+	.bash_logout
+	.bash_profile
+	.bashrc
+	.cshrc
+	.ssh/
+	.tcshrc
+	anaconda-ks.cfg
+	original-ks.cfg
+
+nothing added to commit but untracked files present (use "git add" to track)
+[root@ip-192-168-1-18 ~]# git branch
+[root@ip-192-168-1-18 ~]# git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.bash_history
+	.bash_logout
+	.bash_profile
+	.bashrc
+	.cshrc
+	.ssh/
+	.tcshrc
+	anaconda-ks.cfg
+	original-ks.cfg
+
+nothing added to commit but untracked files present (use "git add" to track)
+[root@ip-192-168-1-18 ~]# vi test1
+
+bhdsjdfbhjefbdkjasbfckjdsbdjksbfjksdbfckjdsbcjkdbcjkds cmdsbchjdsbcndzbchjdbcmnd
+z cmhbvdsc dsmcbdhcb dsnc dshbvc dsnm csdmbvcdsnzm cdmcvbdbc nmd bvhdvbcds cvdsv
+cdsb vdbvhds cvmndbcvjd cvmnds chjdzmnc dsmncvbdc dsmb cjdsbcmsa cdsbcjds cjdsbc
+sdb cs bckjdbcmdz cmdbcdbcv djvbdbdkjbhfgeygfewgfuyewgfiuwef784br3igiw3hr3w4yrdi
+ewhbnfkjesf783urfb4ir4wehfrw34hfewdfkewhf9h4efnhseifwaebfeawg8f7gfiu4ffh47f4eiwf
+hew;i7fiewfheuf7aw4;if4e/wc
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT -- 
+
